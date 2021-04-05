@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quicksort>
+    <level0>
+      <qs>0,6</qs>
+      <array>5,4,2,3,1,8,,9,7,0,6</array>
+    </level0>
+    <level1>
+      <partition>
+        <p>0</p>
+        <r>6</r>
+        <pivot-position>3</pivot-position>
+        <array>1,3,2,4,7,6,5</array>
+      </partition>
+      <qs>0,2</qs>
+      <qs>4,6</qs>
+    </level1>
+    <level2>
+      <partition>
+        <p>0</p>
+        <r>2</r>
+        <pivot-position>1</pivot-position>
+        <array>1,2,3,4,7,6,5</array>
+      </partition>
+      <partition>
+        <p>4</p>
+        <r>6</r>
+        <pivot-position>4</pivot-position>
+        <array>1,2,3,4,5,6,7</array>
+      </partition>
+      <qs>0,0</qs>
+      <qs>2,2</qs>
+      <qs>4,3</qs>
+      <qs>5,6</qs>
+    </level2>
+    <level3>
+      <partition>
+        <p>5</p>
+        <r>6</r>
+        <pivot-position>6</pivot-position>
+        <array>1,2,3,4,5,6,7</array>
+      </partition>
+      <qs>5,5</qs>
+      <qs>7,6</qs>      
+    </level3>
+</quicksort>
